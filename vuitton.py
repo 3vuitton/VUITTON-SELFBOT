@@ -60,9 +60,9 @@ width = os.get_terminal_size().columns
 start_time = datetime.datetime.utcnow()
 loop = asyncio.get_event_loop()
 
-token = ("NzgwNzYwMzM5MjU1MDAxMDk4.X71oPw.e_epDkePdy3jZyLyd4Ljx4MhhyU")
-password = ('3')
-prefix = ('3')
+token = ("token here")
+password = ('password')
+prefix = ('prefix here')
 
 
 vuitton = commands.Bot(command_prefix=prefix, self_bot=True)
@@ -811,4 +811,4 @@ async def unbanll(ctx):
         except:
             pass
 
-vuitton.run("NzgwNzYwMzM5MjU1MDAxMDk4.X71oPw.e_epDkePdy3jZyLyd4Ljx4MhhyU", bot=False)
+vuitton.run("token here", bot=False)
